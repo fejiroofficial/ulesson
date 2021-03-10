@@ -1,0 +1,19 @@
+.Nav {
+  height: 76px;
+  background: #313848;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 52px;
+}
+
+.Nav-profile {
+  display: flex;
+  align-items: center;
+}
+
+.Nav-profile span {
+  margin-left: 12px;
+  color: #ffffff;
+  opacity: 0.4;
+}
