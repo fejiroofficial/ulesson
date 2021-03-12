@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 80px 0 52px ;
+  padding: 0 80px 0 52px;
 }
 
 .Nav-profile {
@@ -17,4 +17,25 @@
   color: #ffffff;
   opacity: 0.4;
   font-family: muli, sans-serif;
+}
+
+@media (max-width: 500px) {
+  .Nav {
+    padding: 0 20px 0 20px;
+  }
+  .Nav-profile img {
+    height: 30px;
+  }
+  .Nav-profile span {
+    margin-left: 5px;
+  }
+  .Nav-logo {
+    height: 20px;
+  }
+  .Nav a {
+    height: 16px;
+  }
+  .Home-blob-img {
+    height: 28vh;
+  }
 }

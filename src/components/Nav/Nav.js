@@ -11,7 +11,7 @@ const Nav = () => {
       {!location.pathname.includes("watch") ? (
         <nav className="Nav">
           <Link to="/">
-            <img src={logo} alt="uLesson" />
+            <img className="Nav-logo" src={logo} alt="uLesson" />
           </Link>
 
           <div className="Nav-profile">

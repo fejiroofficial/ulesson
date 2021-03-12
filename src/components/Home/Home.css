@@ -21,12 +21,12 @@
   margin: 0 auto;
   padding-top: 23px;
   overflow: auto;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 
-.Home-container::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+.Home-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .Home-container h1 {
@@ -48,13 +48,23 @@
 .Home-cards-top {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 45px;
+  overflow: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Home-cards-top::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .Home-cards-top img {
   cursor: pointer;
-  margin-bottom: 30px;
+  margin: 16px 16px 0 0;
+}
+
+.Home-cards-top img:last-child {
+  margin: 1em 0;
 }
 
 .Home section {
@@ -78,13 +88,44 @@
   cursor: pointer;
 }
 
+.Home-more {
+  display: none;
+}
+
 .Home-posters-box {
   display: flex;
-  flex-wrap: wrap;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Home-posters-box::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 @media (max-width: 1152px) {
   .Home-container {
     width: 80%;
+  }
+  .Home-cards-top img:last-child {
+    margin: 1em 1em 1em 0em;
+  }
+}
+
+@media (max-width: 500px) {
+  .Home-container h1 {
+    font-size: 10vw;
+  }
+  .Home-container h2 {
+    font-size: 6vw;
+  }
+  .Home section button {
+    display: none;
+  }
+  .Home-more {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 7px;
   }
 }

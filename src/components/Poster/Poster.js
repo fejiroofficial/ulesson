@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Poster.css";
 import playButton from "../../assets/playbutton.svg";
 

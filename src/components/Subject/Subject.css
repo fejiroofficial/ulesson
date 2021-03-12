@@ -49,6 +49,13 @@
 
 .Subject-lessons {
   display: flex;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Subject-lessons::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .Subject-lesson-card {
@@ -88,4 +95,22 @@
   width: inherit;
   object-fit: contain;
   border-radius: inherit;
+}
+
+@media (max-width: 500px) {
+  .Subject-container h1 {
+    font-size: 10vw;
+  }
+  .Subject-container h2 {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 1144px) {
+  .Subject-arrow-back {
+    position: absolute;
+    top: 100px;
+    left: 5vw;
+    cursor: pointer;
+  }
 }

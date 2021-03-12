@@ -29,7 +29,7 @@ const Watch = () => {
           <ReactPlayer
             url={watching.lessonVideo}
             width="inherit"
-            height="500px"
+            height="35vw"
             style={{ borderRadius: "39px", background: "#2c2c2c" }}
             light={true}
             controls={true}

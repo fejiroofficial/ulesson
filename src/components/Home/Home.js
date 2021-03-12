@@ -10,6 +10,7 @@ import maths from "../../assets/maths.svg";
 import biology from "../../assets/biology.svg";
 import handVector from "../../assets/hand-vector.svg";
 import bottomBlob from "../../assets/bottom-blob.svg";
+import moreVertical from "../../assets/more-vertical.svg";
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
@@ -72,6 +73,7 @@ const Home = () => {
         <section className="Home-posters">
           <h2>Recently watched topics</h2>
           <button>SEE ALL</button>
+          <img className="Home-more" src={moreVertical} alt=""/>
           <div className="Home-posters-box">
             {courses.map((course) => {
               return (
@@ -92,6 +94,7 @@ const Home = () => {
         <section className="Home-posters">
           <h2>Recommended videos</h2>
           <button>SEE ALL</button>
+          <img className="Home-more" src={moreVertical} alt=""/>
           <div className="Home-posters-box">
             {courses.map((course) => {
               return (

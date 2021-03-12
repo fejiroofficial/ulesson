@@ -64,3 +64,18 @@
   outline: none;
   font-weight: bold;
 }
+
+@media (max-width: 1144px) {
+  .Watch-arrow-back {
+    position: absolute;
+    top: 30px;
+    left: 5vw;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 600px) {
+  .Watch-lesson-button {
+    width: 60vw;
+  }
+}

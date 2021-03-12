@@ -28,4 +28,6 @@ code {
 
 video {
   outline: none;
+  object-fit: cover;
+  border-radius: 15px;
 }
