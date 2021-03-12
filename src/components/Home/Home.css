@@ -1,0 +1,90 @@
+.Home {
+  height: 90vh;
+}
+
+.Home-palm-img {
+  position: absolute;
+  top: 3px;
+  z-index: -1;
+}
+
+.Home-blob-img {
+  position: absolute;
+  bottom: 0vh;
+  right: 0;
+  z-index: -1;
+}
+
+.Home-container {
+  height: inherit;
+  width: 65rem;
+  margin: 0 auto;
+  padding-top: 23px;
+  overflow: auto;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.Home-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.Home-container h1 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  color: #313848;
+  font-family: "Itim", cursive;
+  font-weight: normal;
+}
+
+.Home-container h2 {
+  font-size: 28px;
+  letter-spacing: 0.2px;
+  color: #313848;
+  font-family: Itim;
+  font-weight: normal;
+}
+
+.Home-cards-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.Home-cards-top img {
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.Home section {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.Home section button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 98.08px;
+  height: 33.15px;
+  background: #ea7052;
+  border-radius: 6.90722px;
+  color: white;
+  border: none;
+  font-size: 13.8144px;
+  font-weight: bold;
+  letter-spacing: 1.38144px;
+  cursor: pointer;
+}
+
+.Home-posters-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1152px) {
+  .Home-container {
+    width: 80%;
+  }
+}

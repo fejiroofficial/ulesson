@@ -1,0 +1,66 @@
+.Watch {
+  height: 100vh;
+}
+
+.Watch-container {
+  height: inherit;
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 23px;
+  overflow: auto;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.Watch-arrow-back {
+  position: absolute;
+  top: 55px;
+  left: 75px;
+  cursor: pointer;
+}
+
+.Watch-blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.Watch-lesson-name {
+  font-family: Muli;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #313848;
+  margin-bottom: 1rem;
+}
+
+.Watch-lesson-chapter {
+  font-family: Muli;
+  font-size: 18px;
+  line-height: 134.29%;
+  letter-spacing: 0.4px;
+  color: #313848;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.Watch-player {
+  margin-bottom: 2rem;
+}
+
+.Watch-lesson-button {
+  width: 360px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-family: Muli;
+  font-size: 18px;
+  line-height: 115.46%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+  font-weight: bold;
+}

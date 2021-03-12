@@ -1,17 +1,26 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Nav.css";
 import logo from "../../assets/logo.svg";
 import profileIcon from "../../assets/profile-icon.svg";
 
 const Nav = () => {
+  const location = useLocation();
   return (
-    <nav className="Nav">
-      <img src={logo} alt="uLesson" />
-      <div className="Nav-profile">
-        <img src={profileIcon} alt="profile icon" />
-        <span>Hassan</span>
-      </div>
-    </nav>
+    <>
+      {!location.pathname.includes("watch") ? (
+        <nav className="Nav">
+          <Link to="/">
+            <img src={logo} alt="uLesson" />
+          </Link>
+
+          <div className="Nav-profile">
+            <img src={profileIcon} alt="profile icon" />
+            <span>Hassan</span>
+          </div>
+        </nav>
+      ) : ''}
+    </>
   );
 };
 

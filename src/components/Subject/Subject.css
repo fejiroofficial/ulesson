@@ -1,0 +1,91 @@
+.Subject {
+  height: 90vh;
+}
+
+.Subject-container {
+  height: inherit;
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 23px;
+  overflow: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Subject-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.Subject-container h1 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  color: #313848;
+  font-family: "Itim", cursive;
+  font-weight: normal;
+}
+
+.Subject-container h2 {
+  font-size: 33.1525px;
+  line-height: 36px;
+  letter-spacing: 0.276271px;
+  color: #313848;
+  font-family: "Itim", cursive;
+  font-weight: normal;
+}
+
+.Subject-arrow-back {
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  cursor: pointer;
+}
+
+.Subject-fraction {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  z-index: -1;
+}
+
+.Subject-lessons {
+  display: flex;
+}
+
+.Subject-lesson-card {
+  width: 213.73px;
+  height: 196.47px;
+  background: #ffffff;
+  border-radius: 17.2574px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Subject-lesson-title {
+  height: 85px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19.9124px;
+  letter-spacing: 0.530996px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #313848;
+}
+
+.Subject section {
+  margin-bottom: 40px;
+}
+
+.Subject-lesson-thumb {
+  height: 117.24px;
+  width: inherit;
+}
+
+.Subject-lesson-thumb img {
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
+  border-radius: inherit;
+}

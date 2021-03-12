@@ -1,0 +1,49 @@
+.Poster-card {
+  width: 236.23px;
+  height: 258.33px;
+  margin: 13px 31px 13px 0;
+  cursor: pointer;
+}
+
+.Poster-card:last-child {
+    width: 236.23px;
+    height: 258.33px;
+    margin: 13px 0;
+}
+
+.Poster {
+  position: relative;
+  width: inherit;
+  height: 158.87px;
+  margin-bottom: 1em;
+}
+
+.Poster-banner {
+  width: inherit;
+  height: inherit;
+  border-radius: 17.9588px;
+  object-fit: fill;
+}
+
+.Poster-play-btn {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+}
+
+.Poster-subject {
+  font-family: Muli;
+  font-size: 16.5773px;
+  line-height: 115.46%;
+  margin-bottom: 10px;
+}
+
+.Poster-topic {
+  font-family: Muli;
+  font-size: 22.1031px;
+  line-height: 28px;
+  letter-spacing: 0.552577px;
+  text-transform: capitalize;
+  color: #313848;
+  font-weight: bold;
+}
